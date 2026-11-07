@@ -1,0 +1,22 @@
+[project]
+name = "mcp-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prashil001", email = "151838442+Prashil001@users.noreply.github.com" }
+]
+requires-python = ">=3.11.9"
+dependencies = [
+    "fastmcp>=2.14.0,<3",
+    "langchain>=1.4.9",
+    "langchain-mcp-adapters==0.3.2",
+    "mcp>=1.24,<2",
+]
+
+[project.scripts]
+mcp-tutorial = "mcp_tutorial:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
+
+# Environment variables
+.env
+
+# Unnecessary generated files
+*.lock
+
+# Ignore unused src directory
+Ch-1_CreateMCP/src/
